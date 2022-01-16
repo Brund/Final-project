@@ -1,0 +1,39 @@
+
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <a class="navbar-brand" routerLink="/landing-page/user-list">Doctor App</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a routerLink="/landing-page/user-list" routerLinkActive="active" class="nav-link " style="margin-right: 10px;">User List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/landing-page/doctor-list" routerLinkActive="active" class="nav-link " style="margin-right: 10px;">Doctor List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/landing-page/patient-list" routerLinkActive="active" class="nav-link " style="margin-right: 10px;">Patient List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/landing-page/admin-list" routerLinkActive="active" class="nav-link " style="margin-right: 10px;">Admin List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/landing-page/appointment-list" routerLinkActive="active" class="nav-link " style="margin-right: 10px;">Appointment List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/landing-page/availabilitydates-list" routerLinkActive="active" class="nav-link " style="margin-right: 10px;">AvailabilityDates List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/landing-page/feedback-list" routerLinkActive="active" class="nav-link " style="margin-right: 10px;">Feedback List</a>
+      </li>
+      <button class="btn btn-danger" (click)="logout()">Logout</button>
+    </ul>
+  </nav>
+
+
+    <router-outlet></router-outlet>
+
+
+  <footer class="footer ">
+    <div class="container">
+      <span>All rights Reserved 2021 @DoctorApp Module </span>
+    </div>
+    </footer>
+
